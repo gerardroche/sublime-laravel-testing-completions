@@ -54,9 +54,7 @@
         {"trigger":"getCookie","contents":"getCookie(${1:cookieName});"},
         {"trigger":"hasMacro","contents":"hasMacro(${1:name});"},
         {"trigger":"json","contents":"json($1);"},
-        {"trigger":"macro","contents":"macro(${1:name}, ${2:macro});"},
         {"trigger":"macroCall","contents":"macroCall(${1:method}, ${2:parameters});"},
-        {"trigger":"mixin","contents":"mixin(${1:mixin});"},
         {"trigger":"session","contents":"session();"}
     ]
 }

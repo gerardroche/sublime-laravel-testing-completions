@@ -80,9 +80,7 @@
         {"trigger":"getCookie","contents":"\\$this->getCookie(${1:cookieName});"},
         {"trigger":"hasMacro","contents":"\\$this->hasMacro(${1:name});"},
         {"trigger":"json","contents":"\\$this->json($1);"},
-        {"trigger":"macro","contents":"\\$this->macro(${1:name}, ${2:macro});"},
         {"trigger":"macroCall","contents":"\\$this->macroCall(${1:method}, ${2:parameters});"},
-        {"trigger":"mixin","contents":"\\$this->mixin(${1:mixin});"},
         {"trigger":"session","contents":"\\$this->session();"}
     ]
 }
