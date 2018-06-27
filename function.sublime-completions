@@ -1,0 +1,88 @@
+{
+    // scope:
+    //
+    // source.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.class
+    //     meta.function.arguments
+    //     meta.function.parameters
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+    //     variable.parameter
+    //     meta.function.return-type
+    // source.php meta.class.php meta.block.php meta.function.php meta.block.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.function.arguments
+    //     meta.function.parameters
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+    //     variable.parameter
+    //     meta.function.return-type
+
+    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.function.parameters - meta.use - string - support.class - variable.other - variable.parameter - meta.function.return-type, source.php meta.class.php meta.block.php meta.function.php meta.block.php - comment - constant.other.class - entity - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - support.class - variable.other - variable.parameter - meta.function.return-type",
+    "completions": [
+        {"trigger":"assertCookie","contents":"\\$this->assertCookie(${1:cookieName});"},
+        {"trigger":"assertCookieExpired","contents":"\\$this->assertCookieExpired(${1:cookieName});"},
+        {"trigger":"assertCookieMissing","contents":"\\$this->assertCookieMissing(${1:cookieName});"},
+        {"trigger":"assertCookieNotExpired","contents":"\\$this->assertCookieNotExpired(${1:cookieName});"},
+        {"trigger":"assertDontSee","contents":"\\$this->assertDontSee(${1:value});"},
+        {"trigger":"assertDontSeeText","contents":"\\$this->assertDontSeeText(${1:value});"},
+        {"trigger":"assertExactJson","contents":"\\$this->assertExactJson(${1:(array) data});"},
+        {"trigger":"assertForbidden","contents":"\\$this->assertForbidden();"},
+        {"trigger":"assertHeader","contents":"\\$this->assertHeader(${1:headerName});"},
+        {"trigger":"assertHeaderMissing","contents":"\\$this->assertHeaderMissing(${1:headerName});"},
+        {"trigger":"assertJson","contents":"\\$this->assertJson(${1:(array) data});"},
+        {"trigger":"assertJsonCount","contents":"\\$this->assertJsonCount(${1:count});"},
+        {"trigger":"assertJsonFragment","contents":"\\$this->assertJsonFragment(${1:(array) data});"},
+        {"trigger":"assertJsonMessage","contents":"\\$this->assertJsonMessage(${1:(array) data});"},
+        {"trigger":"assertJsonMissing","contents":"\\$this->assertJsonMissing(${1:(array) data});"},
+        {"trigger":"assertJsonMissingExact","contents":"\\$this->assertJsonMissingExact(${1:(array) data});"},
+        {"trigger":"assertJsonMissingValidationErrors","contents":"\\$this->assertJsonMissingValidationErrors(${1:keys});"},
+        {"trigger":"assertJsonStructure","contents":"\\$this->assertJsonStructure();"},
+        {"trigger":"assertJsonValidationErrors","contents":"\\$this->assertJsonValidationErrors(${1:keys});"},
+        {"trigger":"assertLocation","contents":"\\$this->assertLocation(${1:uri});"},
+        {"trigger":"assertNotFound","contents":"\\$this->assertNotFound();"},
+        {"trigger":"assertOk","contents":"\\$this->assertOk();"},
+        {"trigger":"assertPlainCookie","contents":"\\$this->assertPlainCookie(${1:cookieName});"},
+        {"trigger":"assertRedirect","contents":"\\$this->assertRedirect($1);"},
+        {"trigger":"assertSee","contents":"\\$this->assertSee(${1:value});"},
+        {"trigger":"assertSeeInOrder","contents":"\\$this->assertSeeInOrder(${1:(array) values});"},
+        {"trigger":"assertSeeText","contents":"\\$this->assertSeeText(${1:value});"},
+        {"trigger":"assertSeeTextInOrder","contents":"\\$this->assertSeeTextInOrder(${1:(array) values});"},
+        {"trigger":"assertSessionHas","contents":"\\$this->assertSessionHas(${1:key});"},
+        {"trigger":"assertSessionHasAll","contents":"\\$this->assertSessionHasAll(${1:(array) bindings});"},
+        {"trigger":"assertSessionHasErrors","contents":"\\$this->assertSessionHasErrors();"},
+        {"trigger":"assertSessionHasErrorsIn","contents":"\\$this->assertSessionHasErrorsIn(${1:errorBag});"},
+        {"trigger":"assertSessionHasNoErrors","contents":"\\$this->assertSessionHasNoErrors();"},
+        {"trigger":"assertSessionMissing","contents":"\\$this->assertSessionMissing(${1:key});"},
+        {"trigger":"assertStatus","contents":"\\$this->assertStatus(${1:status});"},
+        {"trigger":"assertSuccessful","contents":"\\$this->assertSuccessful();"},
+        {"trigger":"assertViewHas","contents":"\\$this->assertViewHas(${1:key});"},
+        {"trigger":"assertViewHasAll","contents":"\\$this->assertViewHasAll(${1:(array) bindings});"},
+        {"trigger":"assertViewIs","contents":"\\$this->assertViewIs(${1:value});"},
+        {"trigger":"assertViewMissing","contents":"\\$this->assertViewMissing(${1:key});"},
+        {"trigger":"decodeResponseJson","contents":"\\$this->decodeResponseJson($1);"},
+        {"trigger":"dump","contents":"\\$this->dump();"},
+        {"trigger":"ensureResponseHasView","contents":"\\$this->ensureResponseHasView();"},
+        {"trigger":"fromBaseResponse","contents":"\\$this->fromBaseResponse(${1:response});"},
+        {"trigger":"getCookie","contents":"\\$this->getCookie(${1:cookieName});"},
+        {"trigger":"hasMacro","contents":"\\$this->hasMacro(${1:name});"},
+        {"trigger":"json","contents":"\\$this->json($1);"},
+        {"trigger":"macro","contents":"\\$this->macro(${1:name}, ${2:macro});"},
+        {"trigger":"macroCall","contents":"\\$this->macroCall(${1:method}, ${2:parameters});"},
+        {"trigger":"mixin","contents":"\\$this->mixin(${1:mixin});"},
+        {"trigger":"session","contents":"\\$this->session();"}
+    ]
+}

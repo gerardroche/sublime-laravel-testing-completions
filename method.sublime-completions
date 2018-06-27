@@ -1,0 +1,62 @@
+{
+    // scope:
+    //
+    // source.php meta.function-call-object
+    // source.php variable.other.member
+    // source.php variable.other.property
+
+    "scope": "source.php meta.function-call-object, source.php variable.other.member, source.php variable.other.property",
+    "completions": [
+        {"trigger":"assertCookie","contents":"assertCookie(${1:cookieName});"},
+        {"trigger":"assertCookieExpired","contents":"assertCookieExpired(${1:cookieName});"},
+        {"trigger":"assertCookieMissing","contents":"assertCookieMissing(${1:cookieName});"},
+        {"trigger":"assertCookieNotExpired","contents":"assertCookieNotExpired(${1:cookieName});"},
+        {"trigger":"assertDontSee","contents":"assertDontSee(${1:value});"},
+        {"trigger":"assertDontSeeText","contents":"assertDontSeeText(${1:value});"},
+        {"trigger":"assertExactJson","contents":"assertExactJson(${1:(array) data});"},
+        {"trigger":"assertForbidden","contents":"assertForbidden();"},
+        {"trigger":"assertHeader","contents":"assertHeader(${1:headerName});"},
+        {"trigger":"assertHeaderMissing","contents":"assertHeaderMissing(${1:headerName});"},
+        {"trigger":"assertJson","contents":"assertJson(${1:(array) data});"},
+        {"trigger":"assertJsonCount","contents":"assertJsonCount(${1:count});"},
+        {"trigger":"assertJsonFragment","contents":"assertJsonFragment(${1:(array) data});"},
+        {"trigger":"assertJsonMessage","contents":"assertJsonMessage(${1:(array) data});"},
+        {"trigger":"assertJsonMissing","contents":"assertJsonMissing(${1:(array) data});"},
+        {"trigger":"assertJsonMissingExact","contents":"assertJsonMissingExact(${1:(array) data});"},
+        {"trigger":"assertJsonMissingValidationErrors","contents":"assertJsonMissingValidationErrors(${1:keys});"},
+        {"trigger":"assertJsonStructure","contents":"assertJsonStructure();"},
+        {"trigger":"assertJsonValidationErrors","contents":"assertJsonValidationErrors(${1:keys});"},
+        {"trigger":"assertLocation","contents":"assertLocation(${1:uri});"},
+        {"trigger":"assertNotFound","contents":"assertNotFound();"},
+        {"trigger":"assertOk","contents":"assertOk();"},
+        {"trigger":"assertPlainCookie","contents":"assertPlainCookie(${1:cookieName});"},
+        {"trigger":"assertRedirect","contents":"assertRedirect($1);"},
+        {"trigger":"assertSee","contents":"assertSee(${1:value});"},
+        {"trigger":"assertSeeInOrder","contents":"assertSeeInOrder(${1:(array) values});"},
+        {"trigger":"assertSeeText","contents":"assertSeeText(${1:value});"},
+        {"trigger":"assertSeeTextInOrder","contents":"assertSeeTextInOrder(${1:(array) values});"},
+        {"trigger":"assertSessionHas","contents":"assertSessionHas(${1:key});"},
+        {"trigger":"assertSessionHasAll","contents":"assertSessionHasAll(${1:(array) bindings});"},
+        {"trigger":"assertSessionHasErrors","contents":"assertSessionHasErrors();"},
+        {"trigger":"assertSessionHasErrorsIn","contents":"assertSessionHasErrorsIn(${1:errorBag});"},
+        {"trigger":"assertSessionHasNoErrors","contents":"assertSessionHasNoErrors();"},
+        {"trigger":"assertSessionMissing","contents":"assertSessionMissing(${1:key});"},
+        {"trigger":"assertStatus","contents":"assertStatus(${1:status});"},
+        {"trigger":"assertSuccessful","contents":"assertSuccessful();"},
+        {"trigger":"assertViewHas","contents":"assertViewHas(${1:key});"},
+        {"trigger":"assertViewHasAll","contents":"assertViewHasAll(${1:(array) bindings});"},
+        {"trigger":"assertViewIs","contents":"assertViewIs(${1:value});"},
+        {"trigger":"assertViewMissing","contents":"assertViewMissing(${1:key});"},
+        {"trigger":"decodeResponseJson","contents":"decodeResponseJson($1);"},
+        {"trigger":"dump","contents":"dump();"},
+        {"trigger":"ensureResponseHasView","contents":"ensureResponseHasView();"},
+        {"trigger":"fromBaseResponse","contents":"fromBaseResponse(${1:response});"},
+        {"trigger":"getCookie","contents":"getCookie(${1:cookieName});"},
+        {"trigger":"hasMacro","contents":"hasMacro(${1:name});"},
+        {"trigger":"json","contents":"json($1);"},
+        {"trigger":"macro","contents":"macro(${1:name}, ${2:macro});"},
+        {"trigger":"macroCall","contents":"macroCall(${1:method}, ${2:parameters});"},
+        {"trigger":"mixin","contents":"mixin(${1:mixin});"},
+        {"trigger":"session","contents":"session();"}
+    ]
+}
