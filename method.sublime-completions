@@ -23,7 +23,7 @@
         {"trigger":"assertJsonMessage","contents":"assertJsonMessage(${1:(array) data});"},
         {"trigger":"assertJsonMissing","contents":"assertJsonMissing(${1:(array) data});"},
         {"trigger":"assertJsonMissingExact","contents":"assertJsonMissingExact(${1:(array) data});"},
-        {"trigger":"assertJsonMissingValidationErrors","contents":"assertJsonMissingValidationErrors(${1:keys});"},
+        {"trigger":"assertJsonMissingValidationErrors","contents":"assertJsonMissingValidationErrors($1);"},
         {"trigger":"assertJsonStructure","contents":"assertJsonStructure();"},
         {"trigger":"assertJsonValidationErrors","contents":"assertJsonValidationErrors(${1:keys});"},
         {"trigger":"assertLocation","contents":"assertLocation(${1:uri});"},

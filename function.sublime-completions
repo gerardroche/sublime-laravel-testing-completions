@@ -49,7 +49,7 @@
         {"trigger":"assertJsonMessage","contents":"\\$this->assertJsonMessage(${1:(array) data});"},
         {"trigger":"assertJsonMissing","contents":"\\$this->assertJsonMissing(${1:(array) data});"},
         {"trigger":"assertJsonMissingExact","contents":"\\$this->assertJsonMissingExact(${1:(array) data});"},
-        {"trigger":"assertJsonMissingValidationErrors","contents":"\\$this->assertJsonMissingValidationErrors(${1:keys});"},
+        {"trigger":"assertJsonMissingValidationErrors","contents":"\\$this->assertJsonMissingValidationErrors($1);"},
         {"trigger":"assertJsonStructure","contents":"\\$this->assertJsonStructure();"},
         {"trigger":"assertJsonValidationErrors","contents":"\\$this->assertJsonValidationErrors(${1:keys});"},
         {"trigger":"assertLocation","contents":"\\$this->assertLocation(${1:uri});"},
