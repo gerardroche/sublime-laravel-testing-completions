@@ -1,3 +1,3 @@
 # Build Log
 
-* PHP 7.3.1
+* PHP 8.0.0
