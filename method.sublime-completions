@@ -121,6 +121,13 @@
         {"trigger":"withHeaders","contents":"withHeaders(${1:array:headers});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $headers"},
         {"trigger":"withMiddleware","contents":"withMiddleware($1);","kind":["function","m","Method"],"annotation":"Laravel"},
         {"trigger":"withMix","contents":"withMix();","kind":["function","m","Method"],"annotation":"Laravel"},
+        {"trigger":"withServerVariables","contents":"withServerVariables(${1:array:server});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $server"},
+        {"trigger":"withSession","contents":"withSession(${1:array:data});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $data"},
+        {"trigger":"withToken","contents":"withToken(${1:string:token});","kind":["function","m","Method"],"annotation":"Laravel","details":"string $token"},
+        {"trigger":"withUnencryptedCookie","contents":"withUnencryptedCookie(${1:string:name}, ${2:string:value});","kind":["function","m","Method"],"annotation":"Laravel","details":"string $name, string $value"},
+        {"trigger":"withUnencryptedCookies","contents":"withUnencryptedCookies(${1:array:cookies});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $cookies"},
+        {"trigger":"withViewErrors","contents":"withViewErrors(${1:array:errors});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $errors"},
+        {"trigger":"withVite","contents":"withVite();","kind":["function","m","Method"],"annotation":"Laravel"},
         {"trigger":"withoutDeprecationHandling","contents":"withoutDeprecationHandling();","kind":["function","m","Method"],"annotation":"Laravel"},
         {"trigger":"withoutEvents","contents":"withoutEvents();","kind":["function","m","Method"],"annotation":"Laravel"},
         {"trigger":"withoutExceptionHandling","contents":"withoutExceptionHandling($1);","kind":["function","m","Method"],"annotation":"Laravel"},
@@ -130,13 +137,6 @@
         {"trigger":"withoutMockingConsoleOutput","contents":"withoutMockingConsoleOutput();","kind":["function","m","Method"],"annotation":"Laravel"},
         {"trigger":"withoutNotifications","contents":"withoutNotifications();","kind":["function","m","Method"],"annotation":"Laravel"},
         {"trigger":"withoutToken","contents":"withoutToken();","kind":["function","m","Method"],"annotation":"Laravel"},
-        {"trigger":"withoutVite","contents":"withoutVite();","kind":["function","m","Method"],"annotation":"Laravel"},
-        {"trigger":"withServerVariables","contents":"withServerVariables(${1:array:server});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $server"},
-        {"trigger":"withSession","contents":"withSession(${1:array:data});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $data"},
-        {"trigger":"withToken","contents":"withToken(${1:string:token});","kind":["function","m","Method"],"annotation":"Laravel","details":"string $token"},
-        {"trigger":"withUnencryptedCookie","contents":"withUnencryptedCookie(${1:string:name}, ${2:string:value});","kind":["function","m","Method"],"annotation":"Laravel","details":"string $name, string $value"},
-        {"trigger":"withUnencryptedCookies","contents":"withUnencryptedCookies(${1:array:cookies});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $cookies"},
-        {"trigger":"withViewErrors","contents":"withViewErrors(${1:array:errors});","kind":["function","m","Method"],"annotation":"Laravel","details":"array $errors"},
-        {"trigger":"withVite","contents":"withVite();","kind":["function","m","Method"],"annotation":"Laravel"}
+        {"trigger":"withoutVite","contents":"withoutVite();","kind":["function","m","Method"],"annotation":"Laravel"}
     ]
 }
