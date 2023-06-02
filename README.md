@@ -1,10 +1,8 @@
-# LaravelTestingCompletions
+# Laravel Testing Completions
 
 Laravel testing completions for Sublime Text.
 
 ## Installation
-
-**Pending availability in Package Control.**
 
 Install [LaravelTestingCompletions](https://packagecontrol.io/packages/LaravelTestingCompletions) via Package Control.
 
