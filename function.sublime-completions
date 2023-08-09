@@ -143,6 +143,7 @@
         {"trigger":"freezeTime","contents":"\\$this->freezeTime($1);","kind":"function","annotation":"freezeTime($1)","details":"freezeTime($1)"},
         {"trigger":"fromBaseResponse","contents":"\\$this->fromBaseResponse(${1:response});","kind":"function","annotation":"fromBaseResponse($response)","details":"fromBaseResponse($response)"},
         {"trigger":"getCookie","contents":"\\$this->getCookie(${1:cookieName});","kind":"function","annotation":"getCookie($cookieName)","details":"getCookie($cookieName)"},
+        {"trigger":"getDeletedAtColumn","contents":"\\$this->getDeletedAtColumn(${1:table});","kind":"function","annotation":"getDeletedAtColumn($table)","details":"getDeletedAtColumn($table)"},
         {"trigger":"hasMacro","contents":"\\$this->hasMacro(${1:name});","kind":"function","annotation":"hasMacro($name)","details":"hasMacro($name)"},
         {"trigger":"head","contents":"\\$this->head(${1:uri});","kind":"function","annotation":"head($uri)","details":"head($uri)"},
         {"trigger":"json","contents":"\\$this->json($1);","kind":"function","annotation":"json($1)","details":"json($1)"},

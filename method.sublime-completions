@@ -117,6 +117,7 @@
         {"trigger":"freezeTime","contents":"freezeTime($1);","kind":["function","m","Method"],"annotation":"freezeTime($1)","details":"freezeTime($1)"},
         {"trigger":"fromBaseResponse","contents":"fromBaseResponse(${1:response});","kind":["function","m","Method"],"annotation":"fromBaseResponse($response)","details":"fromBaseResponse($response)"},
         {"trigger":"getCookie","contents":"getCookie(${1:cookieName});","kind":["function","m","Method"],"annotation":"getCookie($cookieName)","details":"getCookie($cookieName)"},
+        {"trigger":"getDeletedAtColumn","contents":"getDeletedAtColumn(${1:table});","kind":["function","m","Method"],"annotation":"getDeletedAtColumn($table)","details":"getDeletedAtColumn($table)"},
         {"trigger":"hasMacro","contents":"hasMacro(${1:name});","kind":["function","m","Method"],"annotation":"hasMacro($name)","details":"hasMacro($name)"},
         {"trigger":"head","contents":"head(${1:uri});","kind":["function","m","Method"],"annotation":"head($uri)","details":"head($uri)"},
         {"trigger":"json","contents":"json($1);","kind":["function","m","Method"],"annotation":"json($1)","details":"json($1)"},
